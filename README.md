@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Reward Calculator UI
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In the UI user can select this customer, year and the month from the drop down. When the user clicks Fetch Reward Points button, an REST Api call will be made to the server side to get the rewards history of that perticular customer.
+
+From the server side all the transactions and reward points for that transactions during the selected month are calculated and returned. Even the total reward points for the entire month are calculated on server side and displayed on the UI.
 
 ## Available Scripts
 
